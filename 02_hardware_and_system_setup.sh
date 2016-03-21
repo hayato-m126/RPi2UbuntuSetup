@@ -1,6 +1,11 @@
+# use new user to login through ssh client
+# delete default user
+sudo deluser ubuntu
+sudo rm -rf /home/ubuntu
+
 #hostname and hosts change
-sudo sh -c 'echo "rpi-st" > /etc/hostname'
-#sudo sed -i -e s/"127.0.1.1"\t"ubuntu"/"127.0.1.1"\t"rpi-st"/ /etc/hosts
+sudo sh -c 'echo "rpi-ros" > /etc/hostname'
+sudo sed -i -e s/"127.0.1.1"\t"ubuntu"/"127.0.1.1"\t"rpi-ros"/ /etc/hosts
 
 #overscan
 sudo sed -i -e s/"#disable_overscan=1"/"disable_overscan=1"/ /boot/firmware/config.txt

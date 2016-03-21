@@ -1,8 +1,3 @@
-# use new user to login through ssh client
-# delete default user
-sudo deluser ubuntu
-sudo rm -rf /home/ubuntu
-
 #change to japanese site
 sudo sh -c 'echo "deb http://jp.archive.ubuntu.com/ports/ trusty main restricted universe multiverse" > /etc/apt/sources.list'
 sudo sh -c 'echo "#deb-src http://jp.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse" >> /etc/apt/sources.list'

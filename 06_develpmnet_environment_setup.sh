@@ -17,6 +17,9 @@ sudo apt-get -y install python-serial
 sudo apt-get -y install python-pip
 sudo apt-get -y install spyder
 
+#uncomment next line if you use C++ for ros programing
+#sudo apt-get -y install qtcreator
+
 # document tool
 sudo apt-get -y install doxygen doxygen-gui graphviz
 

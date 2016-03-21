@@ -45,5 +45,5 @@ sudo apt-get install openssh-server
 ifconifg -a  
 
 # sshクライアント(RLogin)を使ってuserでログインしてSFTP転送でシェルを転送
-![SFTPファイル転送](./img/sftp.jpg "SFTPファイル転送")  
+![SFTPファイル転送](./sftp.jpg "SFTPファイル転送")  
 chmod +x *.shとする
