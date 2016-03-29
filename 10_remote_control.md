@@ -1,6 +1,6 @@
 # remote control
 構築したUbuntuの環境をネットワーク経由でリモートコントロールする方法の解説です。  
-1. ssh(Secure Shell)を使ったCUIでの操作
+1. ssh(Secure Shell)を使ったCUIでの操作  
 2. XDMCP(X Display Manager Control Protocol)を使ったGUIでの操作  
 
 の二通りに方法について解説します。
