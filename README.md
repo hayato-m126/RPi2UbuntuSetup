@@ -30,4 +30,4 @@ Windowsの場合は、RLoginを推奨します。
 
 ## インストール後
 下記のような環境が構築されます。定番の亀を動かしているところです。  
-![Desktop](./desktop.png "Desktop")
+![Desktop](./img/desktop.png "Desktop")
