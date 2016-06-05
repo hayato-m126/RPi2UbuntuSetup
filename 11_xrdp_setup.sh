@@ -4,7 +4,7 @@ sudo apt-get -y install lxde
 sudo apt-get -y install xrdp
 echo lxsession -s LXDE -e LXDE > ~/.xsession
 sudo sed -i -e s/"crypt_level=low"/"crypt_level=high"/ /etc/xrdp/xrdp.ini
-sudo sed -i -e s/"port=-1"/"port=5910"/ /etc/xrdp/xrdp.ini #セッション復元用
+sudo sed -i -e s/"port=-1"/"port=ask"/ /etc/xrdp/xrdp.ini #セッション復元用
 
 cd /etc/xrdp/
 sudo wget http://w.vmeta.jp/temp/km-0411.ini     #設定ファイルのダウンロード
